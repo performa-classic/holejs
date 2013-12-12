@@ -1,0 +1,9 @@
+{
+  "name": "gopher-node",
+  "description": "write Gopher servers with Node",
+  "author": "Evan Hahn",
+  "version": "0.1.0",
+  "main": "gopher.js",
+  "keywords": [ "gopher", "tcp", "ip" ],
+  "license": "MIT"
+}
