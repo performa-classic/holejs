@@ -2,9 +2,14 @@ var gopher = require('../gopher');
 
 var app = gopher.createServer(function(request, response) {
 
-	if (request.url == '') {
+	if (request.url == '' || request.url == '/') {
 
-		response.write('iWelcome to my Node-powered Gopher server.');
+		response.write([
+			'iWelcome to my Node-powered Gopher server.',
+			'nothing',
+			'nothing',
+			0
+		].join('\t'));
 		response.write('\r\n');
 
 		response.write([
@@ -22,12 +27,13 @@ var app = gopher.createServer(function(request, response) {
 			7070
 		].join('\t'));
 		response.write('\r\n');
+		response.end('.\r\n');
 
-		response.end();
 
 	} else {
 
-		response.end('Welcome to ' + request.url);
+		response.write('Welcome to ' + request.url);
+		response.end('.\r\n');
 
 	}
 
