@@ -3,7 +3,7 @@
   "description": "Gopher server constructor written in node",
   "author": "M. Sara Friis",
   "version": "0.1.1",
-  "main": "gopher.js",
+  "main": "hole.js",
   "keywords": [
     "gopher",
     "tcp",
