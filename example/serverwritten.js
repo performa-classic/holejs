@@ -1,4 +1,4 @@
-import hole from '../hole.js';
+const hole = require('../hole.js');
 
 const app = hole.createServer(function (request, response) {
   if (request.url == '' || request.url == '/') {

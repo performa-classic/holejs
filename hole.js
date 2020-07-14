@@ -1,4 +1,4 @@
-import Server from './lib/server.js';
+const Server = require('./lib/server.js');
 
 const hole = {};
 
@@ -7,4 +7,4 @@ hole.createServer = function createServer(handler) {
   return server;
 };
 
-export default hole;
+module.exports = hole;
