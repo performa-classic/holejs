@@ -1,9 +1,14 @@
 {
-  "name": "gopher-node",
-  "description": "write Gopher servers with Node",
-  "author": "Evan Hahn",
-  "version": "0.1.0",
+  "name": "holejs",
+  "description": "Gopher server constructor written in node",
+  "author": "M. Sara Friis",
+  "version": "0.1.1",
   "main": "gopher.js",
-  "keywords": [ "gopher", "tcp", "ip" ],
-  "license": "MIT"
+  "keywords": [
+    "gopher",
+    "tcp",
+    "ip"
+  ],
+  "license": "MIT",
+  "type": "module"
 }
