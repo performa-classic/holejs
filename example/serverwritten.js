@@ -35,6 +35,6 @@ const app = hole.createServer(function (request, response) {
   }
 });
 
-app.listen(7070, function () {
+app.listen(7070, () => {
   console.log('Gopher app started on port 7070');
 });
