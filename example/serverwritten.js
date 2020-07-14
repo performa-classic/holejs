@@ -1,6 +1,6 @@
 import hole from '../hole.js';
 
-var app = hole.createServer(function (request, response) {
+const app = hole.createServer(function (request, response) {
   if (request.url == '' || request.url == '/') {
     response.write(
       [
