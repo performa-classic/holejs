@@ -2,7 +2,7 @@
   "name": "holejs",
   "description": "Gopher server constructor written in node",
   "author": "M. Sara Friis",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "hole.js",
   "keywords": [
     "gopher",
@@ -10,7 +10,6 @@
     "ip"
   ],
   "license": "MIT",
-  "type": "module",
   "devDependencies": {
     "eslint": "^7.4.0"
   }
